@@ -1,10 +1,11 @@
 from django.db import models
 
 # Create your models here.
+
 from dono.models import Dono
 
 
-class Gatinho(models.Model):
+class Cachorro(models.Model):
     nome = models.CharField(max_length=255)
     idade = models.IntegerField()
     cores_do_pelo = (
