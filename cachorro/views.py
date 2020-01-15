@@ -12,4 +12,4 @@ def cadastro(request):
         form.save()
         args['msg'] = 'Cadastro Realizado com sucesso'
         return redirect ('/')
-    return render(request, 'cadastro.html', args)
+    return render(request, 'cadastro_cachorro.html', args)
